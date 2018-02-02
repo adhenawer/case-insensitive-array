@@ -16,11 +16,12 @@ echo $array['X-Frame-Options']; // 'SAMEORIGIN'
 
 From the example above, notice how the array values are set two times with two keys with different case. In the `echo` line, the value is accessed in CamelCase, but you get the same value regardless of your querying keys case. 
 
-## Prerequisites
+## Legacy version
 
- - PHP 5.6 or later
+ - This 1.0.x version supports PHP 5.6 or later.
  
-The PHP 5.6 dependency is because the PHPUnit framework requires PHP 5.6. Without PHPUnit, it is technically possible to use this class with PHP 5.4 or later. However, please do note that they are _very_ old PHP versions, and you should _never_ use those versions anymore. 
+The PHP 5.6 dependency is because the PHPUnit framework requires PHP 5.6. Without PHPUnit, it is technically possible to use this class with PHP 5.4 or later. However, please do note that they are _very_ old PHP versions, and you should _never_ use those versions anymore.
+This is a legacy version of this library. Please check the [master branch for the latest versions](https://github.com/Ayesh/case-insensitive-array).
 ## Installing
 The simplest way would be to install using [composer](https://getcomposer.org). 
 
